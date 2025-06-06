@@ -21,6 +21,8 @@ docker-compose.yml
 # Solana
 blockchain/program/diagraph-provenance/target/
 .anchor/
+frontend/node_modules/
+frontend/dist/
 
 # Neo4j
 *.db
