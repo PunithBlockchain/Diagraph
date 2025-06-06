@@ -1,0 +1,19 @@
+{
+    "name": "DiaGraph Hypothesis Generator",
+    "version": "1.0.0",
+    "description": "Generates diabetes hypotheses from a knowledge graph",
+    "endpoints": [
+        {
+            "path": "/generateHypotheses",
+            "method": "POST",
+            "input": {"type": "object", "properties": {"nodes": {"type": "array", "items": {"type": "string"}}}},
+            "output": {"type": "object", "properties": {"hypotheses": {"type": "array"}}}
+        },
+        {
+            "path": "/graph",
+            "method": "GET",
+            "input": {},
+            "output": {"type": "object", "properties": {"nodes": {"type": "array"}, "edges": {"type": "array"}}}
+        }
+    ]
+}

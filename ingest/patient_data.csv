@@ -1,0 +1,6 @@
+id,age,bmi,hba1c,glucose,population
+p0,37,24.4,9.4,143,African
+p1,37,27.5,7.7,84,African
+p2,44,31.7,5.3,105,Caucasian
+p3,33,28.2,6.2,95,South Asian
+p4,21,25.4,7.4,167,Caucasian

@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+package-lock.json
+dist/
+*.log
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.env
+
+# Docker
+*.dockerignore
+docker-compose.yml
+
+# Solana
+blockchain/program/diagraph-provenance/target/
+.anchor/
+
+# Neo4j
+*.db
+*.dump
+
+# Miscellaneous
+*.DS_Store
+*.bak
+/docs/screenshots/
